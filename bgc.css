@@ -1,0 +1,26 @@
+body {
+	animation-name: backgroundColorPalette;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+	/* linear is enabled default, it’s not necessary to add it make it work but it can make your code more expressive */
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #D6D3D2;
+	}
+	25% {
+		background: #B9B9BF;
+	}
+	50% {
+		background: #9999EB;
+	}
+	75% {
+		background: #93D191;
+	}
+	100% {
+		background: #9B916E;
+	}
+}
